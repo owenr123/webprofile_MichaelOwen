@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-item a:hover {
+    color: red;
+}
+
+.navbar-heading {
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.intro {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 18px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.intro-content {
+    flex: 1;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.intro-image img {
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.portfolio-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    transition: transform 0.3s;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+}
+
+.portfolio-details {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.portfolio-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.portfolio-description {
+    font-size: 14px;
+    margin: 10px 0;
+    display: none;
+}
+
+.portfolio-card:hover .portfolio-description {
+    display: block;
+}
+
+.wallpapers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+  
+.wallpaper-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+  
+.wallpaper {
+    flex: 0 0 calc(33.333% - 2rem);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+  
+.wallpaper img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+  
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.footer-content {
+    text-align: center;
+}
